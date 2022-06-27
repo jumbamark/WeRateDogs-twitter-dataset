@@ -15,7 +15,7 @@ __3. image predictions file__
 - Every image in the WeRateDogs twitter archive was run through a [neural network](https://www.youtube.com/watch?v=2-Ol7ZB0MmU) that can classify breeds of dogs. The results: a table full of image predictions (the top three only) alongside each tweet ID, image URL, and the image number that corresponded to the most confident prediction (numbered 1 to 4 since tweets can have up to four images).
 - The file (image_predictions.tsv) is present in each tweet according to a neural network. It should be downloaded programmatically using the Requests library and the following URL: https://d17h27t6h515a5.cloudfront.net/topher/2017/August/599fd2ad_image-predictions/image-predictions.tsv
 
-![Alt text](tweet_image_prediction_data.png)
+![Alt text](assets/tweet_image_prediction_data.png)
 
 - So for the last row in that table:
 * tweet_id is the last part of the tweet URL after "status/" → https://twitter.com/dog_rates/status/889531135344209921
